@@ -92,7 +92,7 @@ int main(void) {
         }
         else if (choice == 4) {
             // Save temperatures AND statuses to CSV
-            FILE *file = fopen("../data/temperature_log.csv", "w");
+            FILE *file = fopen("../data/temperature_log.csv", "a");
             if (file != NULL) {
                 fprintf(file, "Temperature(F),Status\n"); // CSV Header
                 for (int i = 0; i < count; i++) {
