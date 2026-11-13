@@ -39,7 +39,7 @@ int main(void) {
         return 1;
     }
     gpioSetMode(PIN, PI_OUTPUT);
-    gpioWrite(PIN, 0); // Start with LED OFF
+    gpioWrite(PIN, 0); // Start with OFF
 
     while (1) {
         printf("\n--- Smart Classroom Comfort Monitor ---\n");
