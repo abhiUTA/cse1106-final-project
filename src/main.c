@@ -52,7 +52,7 @@ int main(void) {
         printf("Please enter your choice: ");
         
         if (scanf("%d", &choice) != 1) {
-            while(getchar() != '\n'); // Clear buffer on invalid input
+            while(getchar() != '\n'); // Clear buffer
             continue;
         } 
 

@@ -1,0 +1,4 @@
+Temperature(F),Status
+65.0,WARNING
+72.0,NORMAL
+79.0,WARNING
